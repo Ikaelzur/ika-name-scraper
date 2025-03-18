@@ -1,0 +1,30 @@
+# ❌ Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# ❌ Ignorar archivos y caché de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.log
+
+# ❌ Ignorar entornos virtuales y dependencias
+venv/
+env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ❌ Ignorar archivos de configuración de VS Code
+.vscode/
+
+# ❌ Ignorar archivos de Selenium
+chromedriver.log
+
+# ❌ Ignorar la carpeta de salida del scraper
+output/
+namesresult/
+
+# ❌ Ignorar credenciales sensibles y variables de entorno
+.env
